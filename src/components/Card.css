@@ -1,0 +1,40 @@
+.top-stories {
+	width: 300px;
+	padding: 1rem;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	margin: 7px 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.story-item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: space-between;
+	display: inline-block;
+}
+
+.title {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom: 1rem;
+}
+.story-item > .info {
+	min-height: 50px;
+	font-size: 1rem;
+	padding: 1rem;
+	margin: 1rem auto;
+	flex-wrap: wrap;
+	overflow: auto;
+	background-color: rgb(237, 243, 243);
+}
+
+.info > p > a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+}
